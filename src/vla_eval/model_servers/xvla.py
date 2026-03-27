@@ -4,6 +4,8 @@
 #     "vla-eval",
 #     "torch>=2.2",
 #     "transformers>=4.44,<=4.51.3",
+#     "huggingface_hub>=0.32",
+#     "hf-xet",     
 #     "numpy>=1.24",
 #     "pillow>=9.0",
 #     "opencv-python-headless",

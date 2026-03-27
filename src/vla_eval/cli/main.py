@@ -26,9 +26,8 @@ def _stderr_console():
     return Console(stderr=True, highlight=False)
 
 
-def _load_config(path: str) -> dict[str, Any]:
-    """Load YAML config file."""
-    with open(path) as f:
+def _load_config(path):
+    with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 
